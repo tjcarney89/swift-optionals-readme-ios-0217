@@ -21,7 +21,7 @@ Wait. Not everyone has a pet :(. When you first meet someone, it's pretty hard t
 
 Situations like an unknown pet situation come up a lot in programming, too. You've already learned that constants and variables are associated with a _value_. The problem is that sometimes you don't know what that value is, or if it even exists, when you declare a constant or variable. It's like the pet situation! You might make a new friend but not immediately know if they have a pet or not.
 
-Imagine you're righting a program to track a new acquaintance's pet situation. You want to track your friend's pet's name in a variable called `petName`, but initially you don't even know if they _have_ a pet. What do you do?
+Imagine you're writing a program to track a new acquaintance's pet situation. You want to track your friend's pet's name in a variable called `petName`, but initially you don't even know if they _have_ a pet. What do you do?
 
 Swift deals with this sort of situation through the use of a type called an `Optional`. An `Optional` is a way of saying, "I have a piece of data I want to keep track of, but I don't know if it even _has_ a value yet." In Swift, you'd declare an `Optional` variable like this:
 
@@ -139,3 +139,5 @@ Another thing to note: When unwrapping `Optional`s, you don't _need_ to have an 
 Optionals play a big part in Swift programming. They may seem a bit confusing, but using them can lead to programs with fewer errors, and as you use them more, they'll quickly become second nature to you. Values may be optional, but knowing how to handle them isn't!
 
 <a href='https://learn.co/lessons/Optionals' data-visibility='hidden'>View this lesson on Learn.co </a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-optionals-readme'>Optionals</a> on Learn.co and start learning to code for free.</p>
