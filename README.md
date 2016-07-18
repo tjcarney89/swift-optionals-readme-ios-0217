@@ -96,7 +96,7 @@ if petName != nil {
 // prints "My friend's pet is Optional("Scooter")"
 ```
 
-Voilà! You checked to see if `petName != nil`, and since it doesn't, the first branch of your if statement was executed. Try going back and removing or commenting out the second line of your playground (`petName = "Scooter"`) and see what is printed instead.
+Voilà! You checked to see if `petName != nil`, and since it isn't, the first branch of your if statement was executed. Try going back and removing or commenting out the second line of your playground (`petName = "Scooter"`) and see what is printed instead.
 
 But wait. We said that unwrapping an `Optional` wouldn't print that "Optional(...)" bit in the console, but it's still being printed! That's because you haven't actually _unwrapped_ the value yet—you've only checked to see if it's `nil` or not.
 
