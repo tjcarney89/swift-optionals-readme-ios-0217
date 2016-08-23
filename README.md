@@ -4,12 +4,13 @@
 
 > Life shrinks or expands in proportion to one’s courage. -[Anais Nin](https://en.wikipedia.org/wiki/Anaïs_Nin)
 
+## Overview
+
+In this lesson we'll introduce a new data type, optionals. 
 
 ## Learning Objectives
 
-* Explain that an `Optional` either contains a value, or it doesn't.
-* Explain that we know whether or not an `Optional` contains a value by checking to see if the value is not equal `!=` to `nil`.
-* Set an optional variable to a valueless state by assigning it the value `nil`.
+* Set an optional variable to a valueless state by assigning it the value `nil`
 * Use an if statement to find out whether an `Optional` contains a value by comparing the `Optional` against `nil`.
 * Use *optional binding* to find out whether an optional contains a value, and if so, to make that value available as a temporary constant.
 
@@ -137,7 +138,5 @@ Try commenting out the second line of your playground (`petName = "Scooter"`) an
 Another thing to note: When unwrapping `Optional`s, you don't _need_ to have an else branch in your if statement. If the `Optional` is `nil` and you didn't write an else branch, nothing will happen. Sometimes you want to do nothing, and sometimes you want to do something different if the `Optional` is nil. Either way, Swift forces you to deal with `nil` values.
 
 Optionals play a big part in Swift programming. They may seem a bit confusing, but using them can lead to programs with fewer errors, and as you use them more, they'll quickly become second nature to you. Values may be optional, but knowing how to handle them isn't!
-
-<a href='https://learn.co/lessons/Optionals' data-visibility='hidden'>View this lesson on Learn.co </a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-optionals-readme'>Optionals</a> on Learn.co and start learning to code for free.</p>
